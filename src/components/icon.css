@@ -1,0 +1,16 @@
+.icon {
+  animation: rotate 0.5s 0s ease-in-out;
+  color: black;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0) translateY(0px);
+  }
+  50% {
+    transform: translateY(27px);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
